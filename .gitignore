@@ -1,0 +1,3 @@
+docker/mongodb/database/
+node_modules/
+*.js
