@@ -12,6 +12,7 @@ Simple demonstration about Domain Driven Development concepts in NodeJS using Ty
 ```bash
 npm install
 ...
+npm run test       ----Unity Tests
 npm run setup      ----Docker Required
 npm run dev
 ```
