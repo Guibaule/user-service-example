@@ -1,3 +1,4 @@
 docker/mongodb/database/
 node_modules/
 *.js
+package-lock.json

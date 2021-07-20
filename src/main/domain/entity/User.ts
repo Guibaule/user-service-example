@@ -1,7 +1,7 @@
 export default class User {
     constructor(
         public user: string,
-        private pwd: string,
+        public pwd: string,
         public createdAt: Date
     ) {}
 }
