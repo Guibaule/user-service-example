@@ -1,10 +1,10 @@
-import RouterModules from './config/router/RouterModules';
-import RouterProcessor from './config/webserver/RouterProcessor';
-import app, { router } from './config/webserver/Server'
-import ServiceErrorHandler from './web/error/ServiceErrorHandler';
-import onError from './web/error/WebServerErrorHandler'
-import RouterInterface from './web/router/RouterInterface';
-import DatabaseConfig from './config/database/DatabaseConfig'
+import RouterModules from '../config/router/RouterModules';
+import RouterProcessor from '../config/webserver/RouterProcessor';
+import app, { router } from '../config/webserver/Server'
+import ServiceErrorHandler from '../web/error/ServiceErrorHandler';
+import onError from '../web/error/WebServerErrorHandler'
+import RouterInterface from '../web/router/RouterInterface';
+import DatabaseConfig from '../config/database/DatabaseConfig'
 
 export default class UserService {
     private http = require('http');
